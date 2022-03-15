@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": ["ESNext", "DOM"],
+    "esModuleInterop": true,
+    // "allowJs": true,         /* Allow javascript files to be compiled. */
+    "sourceMap": true,
+    "strict": true,
+    // "noEmit": true,          /* Do not emit outputs. */
+    // "baseUrl": "./",         /* Base directory to resolve non-absolute module names. */
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"]
+    }
+    // "types": [],             /* Type declaration files to be included in compilation. */
+  },
+  "exclude": ["node_modules"]
+}

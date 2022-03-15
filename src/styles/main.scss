@@ -1,0 +1,12 @@
+
+
+$color: red;
+body {
+  background-color: $color;
+}
+.some-element {
+  box-sizing: border-box;
+  &__h1 {
+    background-color: yellow;
+  }
+}
