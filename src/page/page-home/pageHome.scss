@@ -1,0 +1,59 @@
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg' fill='red'><polygon points='90 0, 0 90, 100 100' /></svg>");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  
+  &__name, &__profession {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &__name {
+    margin-bottom: 15px;
+    font-size: 3.500em;
+    color: rgb(0, 255, 255);
+    mix-blend-mode: difference;
+  }
+
+  &__profession {
+    font-size: 4em;
+    text-align: right;
+    line-height: .55;
+
+    span {
+      display: block;
+      color: #000;
+    }
+
+    :nth-child(2) {
+      position: relative;
+      color: #fff;
+      transform: translateX(-30px);
+      z-index: 1;
+    }
+
+    :nth-child(3) {
+      transform: translateX(-15px);
+    }
+  }
+
+  &__menu {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-weight: bold;
+    color: #000;
+    &:hover {
+      color: red;
+    }
+  }
+}

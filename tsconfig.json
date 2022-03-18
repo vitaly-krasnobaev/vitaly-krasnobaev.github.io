@@ -9,7 +9,7 @@
     "sourceMap": true,
     "strict": true,
     // "noEmit": true,          /* Do not emit outputs. */
-    // "baseUrl": "./",         /* Base directory to resolve non-absolute module names. */
+    "baseUrl": "./src",         /* Base directory to resolve non-absolute module names. */
     "paths": {
       "~/*": ["./*"],
       "@/*": ["./*"]

@@ -1,4 +1,9 @@
-// Test import of styles
+import 'normalize.css';
 import '@/styles/main.scss';
 
-console.log('Hello World');
+import createApp from '@/createApp';
+
+const elementRoot = document.getElementById('root');
+if (elementRoot) {
+  createApp({ elementToMount: elementRoot });
+}
