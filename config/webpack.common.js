@@ -44,12 +44,8 @@ module.exports = {
     })
   ],
 
-  // Determine how modules within the project are treated
   module: {
-    rules: [
-      // Images: Copy image files to build folder
-      { test: /\.(?:ico|gif|png|jpg|jpeg)$/i, type: 'asset/resource' }
-    ]
+    rules: [{ test: /\.(?:ico|gif|png|jpg|jpeg)$/i, type: 'asset/resource' }]
   },
 
   resolve: {
