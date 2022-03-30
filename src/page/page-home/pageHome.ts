@@ -3,8 +3,7 @@ import Page from '@/page/Page';
 
 const content = `
   <div id="home-content" class="home-content">
-    <a href="#navigation" class="home-content__menu">menu</a>
-    <div class="home-content__name">Vitaly Krasnobaev</div>
+    <a href="#navigation" class="home-content__name">Vitaly Krasnobaev</a>
     <div class="home-content__profession">
       <span>Front</span>
       <span>End</span>
